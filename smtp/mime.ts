@@ -130,7 +130,7 @@ function checkRanges(nr: number) {
  * byte value in hex. This function only escapes character sequences; it does not
  * convert linebreaks etc.
  *
- * NOTE: Encoding support depends on `util.TextDecoder`, which lacks full ICU support
+ * @note Encoding support depends on `util.TextDecoder`, which lacks full ICU support
  * prior to Node.js 13.
  *
  * @see https://nodejs.org/api/util.html#util_whatwg_supported_encodings
@@ -168,7 +168,7 @@ export function mimeEncode(data: string | Uint8Array = '', encoding = 'utf-8') {
 /**
  * Encodes a string or an Uint8Array to an UTF-8 MIME Word
  *
- * NOTE: Encoding support depends on `util.TextDecoder`, which lacks full ICU support
+ * @note Encoding support depends on `util.TextDecoder`, which lacks full ICU support
  * prior to Node.js 13.
  *
  * @see https://tools.ietf.org/html/rfc2047

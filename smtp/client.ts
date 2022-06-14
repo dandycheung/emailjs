@@ -33,7 +33,7 @@ export class SMTPClient {
 	/**
 	 * Create a standard SMTP client backed by a self-managed SMTP connection.
 	 *
-	 * NOTE: `host` is trimmed before being used to establish a connection; however, the original untrimmed value will still be visible in configuration.
+	 * @note `host` is trimmed before being used to establish a connection; however, the original untrimmed value will still be visible in configuration.
 	 *
 	 * @param {Partial<SMTPConnectionOptions>} server smtp options
 	 */
